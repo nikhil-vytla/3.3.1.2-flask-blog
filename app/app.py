@@ -4,8 +4,13 @@ from dotenv import load_dotenv
 
 load_dotenv()
 app = Flask(__name__)
-
+DEBUG = True
 
 @app.route('/')
 def index():
     return render_template('index.html', title="MLH Fellow", url=os.getenv("URL"))
+
+
+if __name__ == '__main__':
+    app.run(debug=DEBUG)
+    
