@@ -3,3 +3,4 @@ __pycache__
 *.pyc
 .replit
 .env
+run.sh
