@@ -34,7 +34,7 @@
 
 		<div class="row">
             <!-- For loop logic of jinja template -->
-            {%for i in range(0, len)%}
+            {%for profile in homeData%}
                 <div class="col">
 				<div class="text-center">
 					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic img-frame" alt="...">
@@ -42,10 +42,10 @@
 				<br>
 				<div class="card rounded-3">
 					<div class="card-body text-start">
-						<h5 class="card-title">{{homeData[i]['name']}}</h5>
-						<h6 class="card-subtitle mb-3 text-muted">{{homeData[i]['school']}}</h6>
-						<p class="card-text card-text-align mt-4 mb-4">{{homeData[i]['short_bio']}}</p>
-						<a class="btn btn-portfolio text-light rounded-pill" href="#" role="button">More about me</a>
+						<h5 class="card-title">{{profile['name']}}</h5>
+						<h6 class="card-subtitle mb-3 text-muted">{{profile['school']}}</h6>
+						<p class="card-text card-text-align mt-4 mb-4">{{profile['bio']}} + {{profile['link']}}</p>
+						<a class="btn btn-portfolio text-light rounded-pill" href="profile/{{profile['link']}}" role="button">More about me</a>
 					</div>
 				</div>
 			</div>
