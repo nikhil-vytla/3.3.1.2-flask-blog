@@ -1,0 +1,23 @@
+[
+    {
+        "name": "Guillermo Sanchez",
+        "school": "University of California, Irvine",
+        "image": "guillermo.png",
+        "page": "/guillermo",
+        "bio": "I am a UC Irvine alumni with a B.S. in Business Information Management. I come from a small town in Mexico, where there is a great lack of opportunities for youth to show their talent in the field of tech."
+    },
+    {
+        "name": "NAME",
+        "school": "SCHOOL",
+        "image": "[fileName].png",
+        "page": "/PATH",
+        "bio": "BIO"
+    },
+    {
+        "name": "NAME",
+        "school": "SCHOOL",
+        "image": "[fileName].png",
+        "page": "/PATH",
+        "bio": "BIO"
+    }
+]
