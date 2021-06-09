@@ -2,10 +2,15 @@ p, h1, h2, h3, h4, h5, h6, button {
     font-family: "Roboto", serif;
 }
 
-.header-pos{
-    margin-top: 10rem;
+
+.profile-pic{
+    width: 120px;
+    height: 120px;
 }
 
+.vertical-center {
+    margin-top: 10rem;
+}
 
 .btn-portfolio{
     background-color: #1D539F;
