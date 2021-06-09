@@ -1,0 +1,47 @@
+{
+    "name": "Nikhil Vytla",
+    "location": "San Jose, CA",
+    "interests": "interest",
+    "email": "mailto:cnikhil.vytla@gmail.com",
+    "instagram": "https://instagram.com/nikhilxvytla",
+    "linkedin": "https://www.linkedin.com/in/nikhil-vytla",
+    "github": "https://github.com/nikhil-vytla",
+    "projects": [
+        {
+            "title": "Crimson",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "DevMatch",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "FloodGate",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "NewMoms",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "Geospatial Store",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "COVID-tivity",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        }
+    ]
+}
