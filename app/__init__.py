@@ -13,6 +13,9 @@ def index():
                            url=os.getenv("URL"),
                            random_background=get_random_background())
 
+@app.route('/profile')
+def profile():
+    return render_template('profile.html', name="John Doe", interests="production engineering!", location="New York, NY, USA", url=os.getenv("URL"))
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5000)
