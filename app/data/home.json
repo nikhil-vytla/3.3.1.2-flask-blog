@@ -1,23 +1,25 @@
 [
-    {
-        "name": "Guillermo Sanchez",
-        "school": "University of California, Irvine",
-        "image": "guillermo.png",
-        "page": "/guillermo",
-        "bio": "I am a UC Irvine alumni with a B.S. in Business Information Management. I come from a small town in Mexico, where there is a great lack of opportunities for youth to show their talent in the field of tech."
-    },
-    {
-        "name": "NAME",
-        "school": "SCHOOL",
-        "image": "[fileName].png",
-        "page": "/PATH",
-        "bio": "BIO"
-    },
-    {
-        "name": "NAME",
-        "school": "SCHOOL",
-        "image": "[fileName].png",
-        "page": "/PATH",
-        "bio": "BIO"
-    }
+  {
+    "name": "Guillermo Sanchez",
+    "school": "University of California, Irvine",
+    "github": "https://github.com/membriux",
+    "profile_picture_path": "guillermo.png",
+    "link": "guillermo",
+    "bio": "I am a UC Irvine alumni with a B.S. in Business Information Management. I come from a small town in Mexico, where there is a great lack of opportunities for youth to show their talent in the field of tech."
+  },
+  {
+    "name": "Nikhil",
+    "school": "University of North Carolina, Chapel Hill",
+    "github": "https://github.com/nikhil-vytla",
+    "profile_picture_path": "nikhil.png",
+    "link": "nikhil",
+    "bio": "Bio stuff"
+  },
+  {
+    "name": "Efrain",
+    "github": "https://github.com/efrabaez",
+    "profile_picture_path": "efra.png",
+    "link": "efrain",
+    "bio": "Bio stuff"
+  }
 ]
