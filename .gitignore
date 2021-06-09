@@ -1,7 +1,9 @@
 /venv
 app/venv
 __pycache__
+/python3-virtualenv
 *.pyc
 .replit
 .env
+.idea
 run.sh
