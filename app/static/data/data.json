@@ -1,0 +1,17 @@
+{
+  "Guillermo": {
+  "name": "memo",
+  "github": "htttps://github.com/membriux",
+  "profile_picture_path": "static/imgs/memo.png"
+  },
+  "Nikhil": {
+  "name": "Nik",
+  "github": "https://github.com/nikhil-vytla",
+  "profile_picture_path": "static/imgs/nikhil.png"
+  },
+  "Efrain": {
+  "name": "Efra",
+  "github": "https://github.com/efrabaez",
+  "profile_picture_path": "static/imgs/efra.png"
+  }
+}
