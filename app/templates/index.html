@@ -37,7 +37,7 @@
             {%for profile in homeData%}
                 <div class="col">
 				<div class="text-center">
-					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic img-frame" alt="...">
+					<img src="{{ url_for('static', filename='img/'+profile['profile_picture_path']) }}" class="rounded-circle profile-pic img-frame" alt="...">
 				</div>
 				<br>
 				<div class="card rounded-3">
