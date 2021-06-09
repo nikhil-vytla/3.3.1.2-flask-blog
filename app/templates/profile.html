@@ -6,7 +6,7 @@
 	<!-- The boring part! -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>My First Portfolio</title>
+  <title>{{name}}'s Portfolio</title>
 	<meta content="Development portfolio of .... " name="description" property="og:description">
 
   <!-- Bootstrap CSS -->
@@ -84,7 +84,7 @@
 <!-- ––––– TODO: get email from 'profile_data'
     -->
   <section class="content contact">
-    <a class="button-slide" data-hover="hello@email.com" href="mailto:hello@email.com">
+    <a class="button-slide" data-hover="{{profile_data['email']}}" href="mailto:{{profile_data['email']}}">
       <span>Talk To Me 👌</span>
     </a>
 	</section>
@@ -99,13 +99,13 @@
           link names in json: 'instagram', 'linkedin', 'github'  -->
       <ul>
         <li>
-          <a href="https://instagram.com/countryside.coder" target="_blank">Instagram</a>
+          <a href= "{{profile_data['instagram']}}" target="_blank">Instagram</a>
         </li>
         <li>
-          <a href="https://www.linkedin.com/in/jamesabedford" target="_blank">Linkedin</a>
+          <a href="{{profile_data['linkedin']}}" target="_blank">Linkedin</a>
 				</li>
 				<li>
-						<a href="https://github.com/jabedford" target="_blank">GitHub</a>
+						<a href="{{profile_data['github']}}" target="_blank">GitHub</a>
 					</li>
       </ul>
     </div>

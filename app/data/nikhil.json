@@ -1,31 +1,47 @@
 {
-    "name": "NAME",
-    "location": "Location",
+    "name": "Nikhil Vytla",
+    "location": "San Jose, CA",
     "interests": "interest",
-    "email": "email",
-    "instagram": "https://instagram/",
-    "linkedin": "https://linkedin.com/in/",
-    "github": "https://github.com/",
+    "email": "mailto:cnikhil.vytla@gmail.com",
+    "instagram": "https://instagram.com/nikhilxvytla",
+    "linkedin": "https://www.linkedin.com/in/nikhil-vytla",
+    "github": "https://github.com/nikhil-vytla",
     "projects": [
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "Crimson",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "DevMatch",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "FloodGate",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "NewMoms",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "Geospatial Store",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
+        },
+        {
+            "title": "COVID-tivity",
+            "img": "project.png",
+            "description": "Lorem ipsum dolor",
+            "link": ""
         }
     ]
 }
