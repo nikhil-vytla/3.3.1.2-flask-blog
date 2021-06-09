@@ -1,0 +1,31 @@
+{
+    "name": "Guillermo",
+    "location": "San Leandro, CA",
+    "position": "MLH Production Engineering Fellow",
+    "email": "email",
+    "instagram": "https://instagram/",
+    "linkedin": "https://linkedin.com/in/membriux",
+    "github": "https://github.com/membriux",
+    "projects": [
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        }
+    ]
+}
