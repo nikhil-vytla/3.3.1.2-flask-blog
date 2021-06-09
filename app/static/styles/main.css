@@ -1,4 +1,4 @@
-p, h1, h2, h3, h4, h5, h6, button {
+/* p, h1, h2, h3, h4, h5, h6, button {
     font-family: "Roboto", serif;
 }
 
@@ -9,7 +9,7 @@ body {
     overflow-x: hidden;
     font-family: "Roboto", serif;
     margin: 0px;
-}
+} */
 
 .nav-bar {
     width: 100%;
@@ -94,4 +94,8 @@ body {
     color: white;
     font-size: 50px;
     font-weight: 700;
+}
+
+ul > li{
+    display:inline-block;
 }
