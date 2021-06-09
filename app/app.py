@@ -1,8 +1,9 @@
 import os
 from flask import Flask, render_template, send_from_directory
 from dotenv import load_dotenv
-from .backgrounds import get_random_background
-load_dotenv()
+from backgrounds import get_random_background
+
+
 app = Flask(__name__)
 
 
