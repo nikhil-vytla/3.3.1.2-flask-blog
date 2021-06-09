@@ -33,61 +33,23 @@
 		</div>
 
 		<div class="row">
-
-			<div class="col">
+            <!-- For loop logic of jinja template -->
+            {%for i in range(0, len)%}
+                <div class="col">
 				<div class="text-center">
-					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic" alt="...">
+					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic img-frame" alt="...">
 				</div>
 				<br>
 				<div class="card rounded-3">
 					<div class="card-body text-start">
-						<h5 class="card-title">Name</h5>
-						<h6 class="card-subtitle mb-3 text-muted">School</h6>
-						<p class="card-text card-text-align mt-4 mb-4">Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum q</p>
+						<h5 class="card-title">{{homeData[i]['name']}}</h5>
+						<h6 class="card-subtitle mb-3 text-muted">{{homeData[i]['school']}}</h6>
+						<p class="card-text card-text-align mt-4 mb-4">{{homeData[i]['short_bio']}}</p>
 						<a class="btn btn-portfolio text-light rounded-pill" href="#" role="button">More about me</a>
 					</div>
 				</div>
 			</div>
-
-			<div class="col">
-				<div class="text-center">
-					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic" alt="...">
-				</div>
-				<br>
-				<div class="card rounded-3">
-					<div class="card-body text-start">
-						<h5 class="card-title">Name</h5>
-						<h6 class="card-subtitle mb-3 text-muted">School</h6>
-						<p class="card-text card-text-align mt-4 mb-4">Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum q</p>
-						<a class="btn btn-portfolio text-light rounded-pill" href="#" role="button">More about me</a>
-					</div>
-				</div>
-			</div>
-
-			<div class="col">
-				<div class="text-center">
-					<img src="http://via.placeholder.com/500" class="rounded-circle profile-pic" alt="...">
-				</div>
-				<br>
-				<div class="card rounded-3">
-					<div class="card-body text-start">
-						<h5 class="card-title">Name</h5>
-						<h6 class="card-subtitle mb-3 text-muted">School</h6>
-						<p class="card-text card-text-align mt-4 mb-4">Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum
-							Short Bio lorem ipsum q</p>
-						<a class="btn btn-portfolio text-light rounded-pill" href="#" role="button">More about me</a>
-					</div>
-				</div>
-			</div>
-			
+            {%endfor%}
 
 		</div>
 
