@@ -6,10 +6,9 @@ from profileInfo import get_profile_data
 
 app = Flask(__name__)
 
-homeData = get_profile_data("data/home.json")
-
 @app.route('/')
 def index():
+    homeData = get_profile_data("data/home.json")
     return render_template('index.html',
                            title="MLH Fellow",
                            url=os.getenv("URL"),
@@ -19,8 +18,10 @@ def index():
 
 @app.route('/profile/<profile>')
 def profile(profile):
-    return render_template('profile.html', name="John Doe", interests="production engineering!",
-                           location="New York, NY, USA", url=os.getenv("URL"))
+    profile_data = get_profile_data("data/{profile}.json".format(profile=profile))
+
+    return render_template('profile.html', 
+                            profile_data=profile_data)
 
 
 if __name__ == '__main__':

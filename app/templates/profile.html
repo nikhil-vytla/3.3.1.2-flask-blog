@@ -38,6 +38,10 @@
 	<!-- The Intro section begins -->
     <section class="intro">
         <div class="intro-text">
+
+  <!-- –––––– TODO: Change variables to get data from 'profile_data' 
+              Example: profile_data['name'] -->
+
             <div class="Hi">
                     <h1>Hi! 👋  &mdash; My name is <span>{{name}}</span>, I'm a <span>developer</span> 👨🏻‍💻 located in {{location}}.</h1> <!-- Insert your text here! -->
             </div>
@@ -52,7 +56,10 @@
   <section class="projects">
     <div class="projects-collage">
 
-			<!-- Project One -->
+			<!-- Project Template -->
+<!-- ––––– TODO: Iterate in for loop through projects from 'profile_data'
+           Example: {{% for project in profile_data['projects'] %}}
+      -->
       <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
         <figure class="project-figure">
           <div class="project-overlay"></div>
@@ -63,72 +70,9 @@
           </figcaption>
         </figure>
 			</a>
-			<!-- Project One Ends -->
+			<!-- Project Template Ends -->
 			
-			<!-- Project Two -->
-      <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
-        <figure class="project-figure">
-          <div class="project-overlay"></div>
-          <img src="https://images.unsplash.com/photo-1481456384069-0effc539ab7e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6e82bb43d4428126504304646c8c6ed4&auto=format&fit=crop&w=1050&q=80">
-          <figcaption class="project-text">
-            <h2>Project Two</h2>
-            <p>Awesome Development</p>
-          </figcaption>
-        </figure>
-			</a>
-			<!-- Project Two Ends -->
-			
-			<!-- Project Three -->
-      <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
-        <figure class="project-figure">
-          <div class="project-overlay"></div>
-          <img src="https://images.unsplash.com/photo-1526498460520-4c246339dccb?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=5eb27a51db4fda32656d35b5e6b93574&auto=format&fit=crop&w=1050&q=80">
-          <figcaption class="project-text">
-            <h2>Project Three</h2>
-            <p>Awesome Development</p>
-          </figcaption>
-        </figure>
-			</a>
-			<!-- Project Three Ends -->
-			
-			<!-- Project Four -->
-      <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
-        <figure class="project-figure">
-          <div class="project-overlay"></div>
-          <img src="https://images.unsplash.com/photo-1494366222322-387658a1a976?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=24100980ab1a60783e1c847b7965bd11&auto=format&fit=crop&w=1051&q=80">
-          <figcaption class="project-text">
-            <h2>Project Four</h2>
-            <p>Awesome Development</p>
-          </figcaption>
-        </figure>
-			</a>
-			<!-- Project Four Ends -->
-			
-			<!-- Project Five -->
-      <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
-        <figure class="project-figure">
-          <div class="project-overlay"></div>
-          <img src="https://images.unsplash.com/photo-1511107898938-65e7577d8fcf?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=67e97ce300372131dade414f7ef77661&auto=format&fit=crop&w=1050&q=80">
-          <figcaption class="project-text">
-            <h2>Project Five</h2>
-            <p>Awesome Development</p>
-          </figcaption>
-        </figure>
-			</a>
-			<!-- Project Five Ends -->
-			
-			<!-- Project Six -->
-      <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
-        <figure class="project-figure">
-          <div class="project-overlay"></div>
-          <img src="https://images.unsplash.com/photo-1526049997133-25caee4c5796?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=4a785d2392ba5c7683a2b09ee1b40b20&auto=format&fit=crop&w=1048&q=80">
-          <figcaption class="project-text">
-            <h2>Project Six</h2>
-            <p>Awesome Development</p>
-          </figcaption>
-        </figure>
-			</a>
-			<!-- Project Six Ends -->
+		
 			
     </div>
 	</section>
@@ -136,6 +80,9 @@
 	
 	
 	<!-- Contact button section begins -->
+
+<!-- ––––– TODO: get email from 'profile_data'
+    -->
   <section class="content contact">
     <a class="button-slide" data-hover="hello@email.com" href="mailto:hello@email.com">
       <span>Talk To Me 👌</span>
@@ -143,9 +90,13 @@
 	</section>
 	<!-- Contact button section ends-->
 	
-	<!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+	
+  <!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
   <footer>
     <div class="wrapper">
+
+<!-- ––––– TODO: get links from from 'profile_data' Reference: 
+          link names in json: 'instagram', 'linkedin', 'github'  -->
       <ul>
         <li>
           <a href="https://instagram.com/countryside.coder" target="_blank">Instagram</a>

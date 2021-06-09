@@ -1,0 +1,31 @@
+{
+    "name": "NAME",
+    "location": "Location",
+    "interests": "interest",
+    "email": "email",
+    "instagram": "https://instagram/",
+    "linkedin": "https://linkedin.com/in/",
+    "github": "https://github.com/",
+    "projects": [
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        },
+        {
+            "title": "title",
+            "img": "https://linktoimage",
+            "description": "descriptoin"
+        }
+    ]
+}
