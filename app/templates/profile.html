@@ -6,7 +6,11 @@
 	<!-- The boring part! -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
-  <title>{{name}}'s Portfolio</title>
+
+  <!-- ––––– TODO: Make Title dynamic as well from 'profile_data'
+            example: {{profile_data['name']}}'s portfolio
+  -->
+  <title>My First Portfolio</title>
 	<meta content="Development portfolio of .... " name="description" property="og:description">
 
   <!-- Bootstrap CSS -->
@@ -58,7 +62,7 @@
 
 			<!-- Project Template -->
 <!-- ––––– TODO: Iterate in for loop through projects from 'profile_data'
-           Example: {{% for project in profile_data['projects'] %}}
+           Example: for project in profile_data['projects']
       -->
       <a class="project-item" href="https://www.github.com/jabedford" target="_blank">
         <figure class="project-figure">
