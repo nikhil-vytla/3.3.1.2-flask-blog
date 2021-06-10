@@ -2,30 +2,34 @@
     "name": "Guillermo",
     "location": "San Leandro, CA",
     "position": "MLH Production Engineering Fellow",
-    "email": "email",
-    "instagram": "https://instagram/",
+    "email": "sanguillermo98@gmail.com",
+    "instagram": "https://instagram/membriux",
     "linkedin": "https://linkedin.com/in/membriux",
     "github": "https://github.com/membriux",
     "projects": [
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "Food Sentiments",
+            "img": "https://raw.githubusercontent.com/membriux/Food-Sentiment/master/walkthrough.gif",
+            "description": "Web app that tells you what people are feeling about certain food items from the YelpAPI.",
+            "link": "https://github.com/membriux/Food-Sentiment"
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "Yelpy",
+            "img": "https://camo.githubusercontent.com/0de660456055f19ece2450651ac0b0bc7e3d8dbd37fafebbbc67dd2ccd95c829/68747470733a2f2f696d6775722e636f6d2f454a47596a686c2e676966",
+            "description": "Clone of Yelp app that we use to teach CodePath's iOS Curriculum utilized by more than 300+ students every year.",
+            "link": "https://github.com/membriux/Yelpy"
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "Vida Nueva",
+            "img": "https://user-images.githubusercontent.com/20372706/121558410-83fe7400-c9ca-11eb-80df-9f114d8e8bcf.gif",
+            "description": "Web app built in Node/Express JS for my local church in San Leandro, CA.",
+            "link": "https://github.com/membriux/VidaNueva"
         },
         {
-            "title": "title",
-            "img": "https://linktoimage",
-            "description": "descriptoin"
+            "title": "CrapMaps",
+            "img": "https://raw.githubusercontent.com/membriux/Teach-Webdev-SHPE/GIFs/GIFs/crap-maps.gif",
+            "description": "A web app that utilizes Google Map's APIs in that helps students locate bathroom locations so that they know where to find the bathrooms at the UCI Campus.",
+            "link": "https://github.com/membriux/Teach-Webdev-SHPE"
         }
     ]
 }
