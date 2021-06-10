@@ -1,31 +1,35 @@
 {
-    "name": "NAME",
+    "name": "Efrain",
     "location": "Location",
-    "interests": "interest",
+    "position": "position",
     "email": "email",
     "instagram": "https://instagram/",
     "linkedin": "https://linkedin.com/in/",
-    "github": "https://github.com/",
+    "github": "https://github.com/efrabaez",
     "projects": [
         {
             "title": "title",
             "img": "https://linktoimage",
-            "description": "descriptoin"
+            "description": "description",
+            "link": ""
         },
         {
             "title": "title",
             "img": "https://linktoimage",
-            "description": "descriptoin"
+            "description": "description",
+            "link": ""
         },
         {
             "title": "title",
             "img": "https://linktoimage",
-            "description": "descriptoin"
+            "description": "description",
+            "link": ""
         },
         {
             "title": "title",
             "img": "https://linktoimage",
-            "description": "descriptoin"
+            "description": "description",
+            "link": ""
         }
     ]
 }

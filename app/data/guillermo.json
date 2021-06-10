@@ -28,7 +28,7 @@
         {
             "title": "CrapMaps",
             "img": "https://raw.githubusercontent.com/membriux/Teach-Webdev-SHPE/GIFs/GIFs/crap-maps.gif",
-            "description": "A web app that utilizes Google Map's APIs in that helps students locate bathroom locations so that they know where to find the bathrooms at the UCI Campus.",
+            "description": "A web app that utilizes Google Map's APIs to help students locate bathroom locations on the UC Irvine Campus.",
             "link": "https://github.com/membriux/Teach-Webdev-SHPE"
         }
     ]
