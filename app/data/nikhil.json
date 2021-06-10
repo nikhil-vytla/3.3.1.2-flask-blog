@@ -1,47 +1,47 @@
 {
     "name": "Nikhil Vytla",
     "location": "San Jose, CA",
-    "interests": "interest",
-    "email": "mailto:cnikhil.vytla@gmail.com",
+    "position": "Product Engineer",
+    "email": "cnikhil.vytla@gmail.com",
     "instagram": "https://instagram.com/nikhilxvytla",
     "linkedin": "https://www.linkedin.com/in/nikhil-vytla",
     "github": "https://github.com/nikhil-vytla",
     "projects": [
         {
             "title": "Crimson",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/crimson.PNG",
+            "description": "Revolutionizing online reading through instantaneous audio and voice control.",
+            "link": "https://github.com/nikhil-vytla/Crimson"
         },
         {
             "title": "DevMatch",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/devmatch.PNG",
+            "description": "The premier social networking site for developers, investors, and entrepreneurs.",
+            "link": "https://github.com/nikhil-vytla/DevMatch"
         },
         {
             "title": "FloodGate",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/floodgate.PNG",
+            "description": "Leveraging crowd-sourced data for early flood warning & detection.",
+            "link": "https://github.com/nikhil-vytla/FloodGate"
         },
         {
             "title": "NewMoms",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/newmoms.PNG",
+            "description": "Personal pregnancy data analytics app for postpartum depression.",
+            "link": "https://github.com/nikhil-vytla/NewMoms"
         },
         {
             "title": "Geospatial Store",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/geospatialstore.PNG",
+            "description": "Making Earth observation more accessible for everyone.",
+            "link": "https://github.com/nikhil-vytla/GeospatialStore"
         },
         {
             "title": "COVID-tivity",
-            "img": "project.png",
-            "description": "Lorem ipsum dolor",
-            "link": ""
+            "img": "https://nikhilvytla.com/assets/images/covidtivity.PNG",
+            "description": "Building a social platform to visualize research efforts (cures/vaccines/tests) against COVID-19.",
+            "link": "https://github.com/nikhil-vytla/COVID-19"
         }
     ]
 }
