@@ -6,7 +6,7 @@ body {
 .bubble {
   position: absolute;
   left: var(--bubble-left-offset);
-  bottom: -100%;
+  bottom: -1%;
   display: block;
   width: var(--bubble-radius);
   height: var(--bubble-radius);
