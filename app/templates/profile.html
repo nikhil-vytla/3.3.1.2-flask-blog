@@ -3,15 +3,11 @@
 
 <head>
 
-	<!-- The boring part! -->
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <!-- ––––– TODO: Make Title dynamic as well from 'profile_data'
-            example: {{profile_data['name']}}'s portfolio
-  -->
   <title>{{profile_data['name']}}'s Portfolio</title>
-	<meta content="Development portfolio of .... " name="description" property="og:description">
+	<meta content="Development portfolio of {{profile_data['name']}} " name="description" property="og:description">
 
   <!-- Bootstrap CSS -->
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
@@ -25,8 +21,7 @@
 
   <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.4/jquery.min.js"></script>
   <link href="https://fonts.googleapis.com/css?family=Work+Sans:300,600,400" rel="stylesheet" type="text/css">
-   
-	<!-- This is a neat little effect that fades the website in from white when it is loaded. This will work in unison with a animation effect. -->
+
   <script>
     $(window).load(function () {
       $('.preloader').delay(400).fadeOut('slow');
@@ -36,34 +31,24 @@
 </head>
 
 <body>
-	<!-- This calls the little script written above. -->
     <div class="preloader"></div>
 
-	<!-- The Intro section begins -->
+	<!-- Intro section begins -->
     <section class="intro">
         <div class="intro-text">
-
-  <!-- –––––– TODO: Change variables to get data from 'profile_data' 
-              Example: profile_data['name'] -->
-
-            <div class="Hi">
-                    <h1>Hi! 👋  &mdash; My name is <span>{{profile_data['name']}}</span>, I'm a <span>{{profile_data['position']}}</span> 👨🏻‍💻 located in {{profile_data['location']}}.</h1> <!-- Insert your text here! -->
-            </div>
+          <div class="Hi">
+            <h1>Hi! 👋 &mdash; My name is <span>{{profile_data['name']}}</span>, I'm a <span>{{profile_data['position']}}</span> 👨🏻‍💻 located in {{profile_data['location']}}.</h1> <!-- Insert your text here! -->
+          </div>
         </div>
     </section>
 	<!-- Intro section ends -->
 	
-	<!-- The portfolio section begins -->
-	<!-- Please note: all of the following images are from Unsplash. I do not own the rights to them, and I have used them according to Unsplash's
-	rules and regulations. All credits go to original owners/photographers.-->
+	<!-- Portfolio section begins -->
 
   <section class="projects">
     <div class="projects-collage">
 
 			<!-- Project Template -->
-<!-- ––––– TODO: Iterate in for loop through projects from 'profile_data'
-           Example: for project in profile_data['projects']
-      -->
       {%for project in profile_data['projects']%}
       <a class="project-item" href="{{project['link']}}" target="_blank">
         <figure class="project-figure">
@@ -78,37 +63,31 @@
       {%endfor%}
 			<!-- Project Template Ends -->
 			
-		
-			
     </div>
 	</section>
 	<!-- Portfolio section ends -->
 	
 	
-	<!-- Contact button section begins -->
+	<!-- Contact section begins -->
 
-<!-- ––––– TODO: get email from 'profile_data'
-    -->
   <section class="content contact">
-    <a class="button-slide" data-hover="{{profile_data['email']}}" href="mailto:{{profile_data['email']}}">
+    <a class="button-slide" href="mailto:{{profile_data['email']}}">
       <span>Talk To Me 👌</span>
     </a>
 	</section>
-	<!-- Contact button section ends-->
+	<!-- Contact section ends-->
 	
 	
-  <!-- Footer section begins - If you do not want links here, you can change the <li> items to just be <p> tags or whatever you require -->
+  <!-- Footer section begins -->
   <footer>
     <div class="wrapper">
 
-<!-- ––––– TODO: get links from from 'profile_data' Reference: 
-          link names in json: 'instagram', 'linkedin', 'github'  -->
       <ul>
         <li>
           <a href= "{{profile_data['instagram']}}" target="_blank">Instagram</a>
         </li>
         <li>
-          <a href="{{profile_data['linkedin']}}" target="_blank">Linkedin</a>
+          <a href="{{profile_data['linkedin']}}" target="_blank">LinkedIn</a>
 				</li>
 				<li>
 						<a href="{{profile_data['github']}}" target="_blank">GitHub</a>
