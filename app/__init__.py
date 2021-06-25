@@ -8,12 +8,12 @@ app = Flask(__name__)
 
 @app.route('/')
 def index():
-    homeData = get_profile_data("data/home.json")
+    home_data = get_profile_data("data/home.json")
     return render_template('index.html',
                            title="MLH Fellow",
                            url=os.getenv("URL"),
                            random_background=get_random_background(),
-                           homeData=homeData)
+                           home_data=home_data)
 
 
 @app.route('/profile/<profile>')
@@ -23,6 +23,13 @@ def profile(profile):
     return render_template('profile.html', 
                             profile_data=profile_data)
 
+@app.route("/blog")
+def blog():
+    return "Hey! You've found my unfinished blog!"
+
+@app.route("/health")
+def health():
+    return "Hey! You've found an unfinished page!"
 
 if __name__ == '__main__':
     app.run(host='0.0.0.0', debug=True, port=5000)
