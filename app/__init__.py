@@ -1,8 +1,8 @@
 import os
 from flask import Flask, render_template, send_from_directory
 from dotenv import load_dotenv
-from backgrounds import get_random_background
-from profileInfo import get_profile_data
+from .backgrounds import get_random_background
+from .profileInfo import get_profile_data
 
 app = Flask(__name__)
 
@@ -15,13 +15,11 @@ def index():
                            random_background=get_random_background(),
                            home_data=home_data)
 
+@app.route('/portfolio')
+def portfolio():
+    profile_data = get_profile_data("data/nikhil.json")
 
-@app.route('/profile/<profile>')
-def profile(profile):
-    profile_data = get_profile_data("data/{profile}.json".format(profile=profile))
-
-    return render_template('profile.html', 
-                            profile_data=profile_data)
+    return render_template('profile.html', profile_data=profile_data)
 
 @app.route("/blog")
 def blog():
