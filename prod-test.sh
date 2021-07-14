@@ -15,8 +15,8 @@ assert ()
   fi
 }
 
-username=$(shuf -n1 /usr/share/dict/words)
-password=$(shuf -n1 /usr/share/dict/words)
+username="$RANDOM"
+password="$RANDOM"
 wrongpassword="wrongpw"
 
 homepage () { curl -s https://nikhilsblog.duckdns.org; }
