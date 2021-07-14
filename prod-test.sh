@@ -31,4 +31,4 @@ assert "$(register "$username" "$password")" "User ${username} is already regist
 assert "$(login "" "$password")" "Incorrect username."
 assert "$(login "$username" "")" "Incorrect password."
 assert "$(login "$username" "$wrongpassword")" "Incorrect password."
-assert "$(login "$username" "$wrongpassword")" "Login Successful"
+assert "$(login "$username" "$password")" "Login Successful"
