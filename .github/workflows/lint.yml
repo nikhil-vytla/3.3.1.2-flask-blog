@@ -32,3 +32,5 @@ jobs:
       with:
         black: true
         flake8: true
+        black_args: "app/"
+        flake8_args: "app/"
